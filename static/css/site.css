@@ -1,0 +1,490 @@
+﻿@import url('jquery.css');
+
+body
+{
+    min-width: 980px;
+    background: #575757 url(/static/image/bg.jpg) repeat-x scroll center top;
+}
+.page
+{
+    margin: 0 auto;
+    background: #000;
+}
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+    margin-bottom: 8px;
+}
+h1, h2, h3, h4, h5, h6, ul.global-nav li, ul.global-account li, .global-footer
+{
+    font-family: 'Arial';
+}
+h1
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: #CC0000;
+}
+h2
+{
+    font-size: 1.5em;
+}
+h2.title
+{
+    color: #666;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+h3
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+h4
+{
+    font-size: 1em;
+}
+h5
+{
+    font-size: 1em;
+}
+h6
+{
+    font-size: 1em;
+}
+
+a, .error a
+{
+    text-decoration: none;
+    color: #3399CC;
+    font-weight: bold;
+}
+.rich-content a
+{
+    text-decoration: underline;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.fine
+{
+    font-size: 10px;
+    font-family: Verdana;
+}
+.required
+{
+    color: #CC0000;
+}
+div.divider
+{
+    border-top: solid 1px #D1EAFD;
+    height: 1px;
+    margin: 10px 0;
+    display: block;
+}
+
+.print-only
+{
+    display: none;
+}
+#header
+{
+    height: 105px;
+    background: #000 url(/static/image/header2.png) no-repeat scroll left top;
+}
+.logo
+{
+    width:400px;
+    height:105px;
+    float:left;
+}
+
+#globalnav
+{
+    float: right;
+    margin: 50px 42px 10px 10px;
+}
+#globalnav li
+{
+    float: left;
+    margin: 0;
+    border-right:solid 2px #7A0000;
+    padding-right:12px;
+    margin-right:12px;
+}
+#globalnav li.last
+{
+    border-right:0;
+    padding-right:0;
+    margin-right:0;
+}
+#globalnav li a
+{
+    display: block;
+    color: #FFF;
+    font: bold 14px/14px Arial;
+}
+
+h1.page-title
+{
+    background-color: #575757;
+    color: #FFF;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.page-content
+{
+    background: #FFF;
+}
+.cols
+{
+    position: relative;
+}
+.left-col
+{
+    width: 202px;
+    float: left;
+}
+
+.main-col
+{
+    width: 756px;
+    border-left: solid 2px #000;
+    float: left;
+	background: #FFF;
+}
+
+.welcome-msg
+{
+    width: 340px;
+    float: left;
+    height: 260px;
+    padding: 20px;
+    background: #000 url(/static/image/bg_welcome.png) no-repeat scroll left top;
+    color: #FFF;
+    font: bold 16px/26px Arial;
+}
+.video-home
+{
+    width: 572px;
+    height: 301px;
+    text-align: center;
+    float: right;
+    background: #000;
+}
+
+/* Vehicle */
+ul.vehicles
+{
+    margin: 0;
+}
+ul.vehicles li
+{
+    margin: 0;
+    float: left;
+}
+ul.vehicles li img
+{
+    display: block;
+    width: 240px;
+    height: 191px;
+}
+ul.vehicles li.vehicle-1 img
+{
+    background: #FFF url(/static/image/1_rhino.jpg) no-repeat scroll left top;
+}
+ul.vehicles li.vehicle-2 img
+{
+    background: #FFF url(/static/image/2_vmax.jpg) no-repeat scroll left top;
+}
+ul.vehicles li.vehicle-3 img
+{
+    background: #FFF url(/static/image/3_superhawk.jpg) no-repeat scroll left top;
+}
+ul.vehicles li
+{
+    position: relative;
+    padding-bottom: 24px;
+    background:#FFF;
+}
+ul.vehicles li.vehicle-3 span
+{
+    color: #000;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+ul.vehicles li.vehicle-4 img
+{
+    background: #FFF url(/static/image/4_sabre.jpg) no-repeat scroll left top;
+}
+ul.vehicles li.vehicle-5 img
+{
+    background: #FFF url(/static/image/electric/electric_bike.jpg) no-repeat scroll left top;
+}
+ul.vehicles li.vehicle-6 img
+{
+    background: #FFF url(/static/image/6_supermoto.jpg) no-repeat scroll left top;
+}
+ul.vehicles li.vehicle-1 a:hover img
+{
+    background-position: left -191px;
+}
+ul.vehicles li.vehicle-2 a:hover img
+{
+    background-position: left -191px;
+}
+ul.vehicles li.vehicle-3 a:hover img
+{
+    background-position: left -191px;
+}
+ul.vehicles li.vehicle-4 a:hover img
+{
+    background-position: left -191px;
+}
+ul.vehicles li.vehicle-5 a:hover img
+{
+    background-position: left -191px;
+}
+ul.vehicles li.vehicle-6 a:hover img
+{
+    background-position: left -191px;
+}
+#credit1
+{
+    width: 220px;
+    float: left;
+    padding: 10px;
+}
+#credit2
+{
+    width: 220px;
+    float: right;
+    padding: 10px;
+}
+
+
+#credits
+{
+    width: 697px;
+    height: 274px;
+    float: right;
+    padding: 10px;
+    background: #000 url(/static/image/bg_credits.png) no-repeat scroll left bottom;
+}
+#credits h2
+{
+    color: #FFF;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.more-link
+{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Vehicle */
+.credit-pager-ctr
+{
+    width: 560px;
+    float: left;
+    height: 179px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+ul.credits
+{
+    margin: 0;
+    width: 100%;
+    height: 179px;
+    position: relative;
+}
+ul.credits li
+{
+    margin: 0;
+    float: left;
+}
+ul.credits li.last
+{
+    clear: right;
+}
+ul.credits li img
+{
+    display: block;
+    width: 120px;
+    height: 179px;
+    margin: 0 10px;
+}
+
+.pager
+{
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 65px 5px;
+    float: left;
+    cursor: pointer;
+    background: Transparent url(/static/image/arrows.png) no-repeat scroll left top;
+}
+
+.pager.next
+{
+    float: right;
+    background-position: right top;
+}
+
+a:hover .pager.prev
+{
+    background-position: left bottom;
+}
+a:hover .pager.next
+{
+    background-position: right bottom;
+}
+
+.vehicle-list .vehicle-item img
+{
+    float: left;
+    margin-right: 15px;
+}
+.vehicle-list .vehicle-item
+{
+    border-bottom: solid 2px #000;
+    padding: 10px;
+}
+.vehicle-list .vehicle-item.last
+{
+    border-bottom: solid 0px #000;
+}
+.vehicle-list .vehicle-item h2
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.vehicle-list .vehicle-item a
+{
+    color: #000;
+    text-decoration: none !important;
+}
+
+ul.vehicle-nav
+{
+    margin: 0;
+}
+ul.vehicle-nav li
+{
+    margin: 0;
+    float: left;
+    border-bottom: solid 2px #000;
+}
+ul.vehicle-nav li img
+{
+    display: block;
+    width: 202px;
+    height: 160px;
+}
+ul.vehicle-nav li.vehicle-rhino img
+{
+    background: #FFF url(/static/image/vehicles/thumb_rhino.jpg) no-repeat scroll left top;
+}
+ul.vehicle-nav li.vehicle-vmax img
+{
+    background: #FFF url(/static/image/vehicles/thumb_vmax.jpg) no-repeat scroll left top;
+}
+ul.vehicle-nav li.vehicle-superhawk img
+{
+    background: #FFF url(/static/image/vehicles/thumb_superhawk.jpg) no-repeat scroll left top;
+}
+ul.vehicle-nav li.vehicle-sabre img
+{
+    background: #FFF url(/static/image/vehicles/thumb_sabre.jpg) no-repeat scroll left top;
+}
+ul.vehicle-nav li.vehicle-electric img
+{
+    background: #FFF url(/static/image/vehicles/thumb_electric.jpg) no-repeat scroll left top;
+}
+ul.vehicle-nav li.vehicle-supermoto img
+{
+    background: #FFF url(/static/image/vehicles/thumb_supermoto.jpg) no-repeat scroll left top;
+}
+ul.vehicle-nav li.vehicle-rhino a:hover img
+{
+    background-position: -202px top;
+}
+ul.vehicle-nav li.vehicle-vmax a:hover img
+{
+    background-position: -202px top;
+}
+ul.vehicle-nav li.vehicle-superhawk a:hover img
+{
+    background-position: -202px top;
+}
+ul.vehicle-nav li.vehicle-sabre a:hover img
+{
+    background-position: -202px top;
+}
+ul.vehicle-nav li.vehicle-electric a:hover img
+{
+    background-position: -202px top;
+}
+ul.vehicle-nav li.vehicle-supermoto a:hover img
+{
+    background-position: -202px top;
+}
+
+.vehicle-gallery
+{
+    padding: 10px;
+    width: 467px;
+    height: 945px;
+    float: left;
+    border-right: solid 2px #000;
+}
+.vehicle-gallery ul.thumbs
+{
+    margin: 0;
+    margin-left: -10px;
+}
+.vehicle-gallery ul.thumbs li
+{
+    margin: 0;
+    float: left;
+}
+.vehicle-gallery ul.thumbs li img
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    border: solid 1px #000;
+    cursor:pointer;
+}
+
+.vehicle-details
+{
+    padding: 10px;
+    float: left;
+    width: 247px;
+}
+.vehicle-details ul
+{
+    margin-left: 10px;
+}
+.vehicle-details li
+{
+    list-style-type: square;
+    margin-left: 15px;
+    margin-bottom: 6px;
+}
